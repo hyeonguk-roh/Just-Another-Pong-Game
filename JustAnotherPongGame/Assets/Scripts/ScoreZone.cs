@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-using TMPro;
 
 public class ScoreZone : MonoBehaviour
 {
     public EventTrigger.TriggerEvent scoreTrigger;
+    
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
